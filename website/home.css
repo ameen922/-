@@ -1,0 +1,210 @@
+/* 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    background-color: white;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+header {
+    background: #333;
+    color: white;
+    padding: 15px 0;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+header h1 {
+    margin: 0;
+}
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+header nav ul li {
+    margin-left: 20px;
+}
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+header nav ul li a:hover {
+    color: #ffa500;
+}
+
+
+.hero {
+    text-align: center;
+    background: #ffa500;
+    color: white;
+    padding: 50px 20px;
+}
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+
+.car-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 1200px;
+    gap: 20px;
+}
+.car-item {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    overflow: hidden;
+}
+.car-item img {
+    width: 100%;
+    height: auto;
+}
+.car-item h3 {
+    margin: 15px 0;
+    font-size: 1.5em;
+}
+.car-item p {
+    padding: 0 15px 15px;
+}
+
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+
+ */
+
+
+
+ body {
+    font-family: Arial, sans-serif; /* הגדרת גופן הדף ל-Arial או לגופן ברירת מחדל */
+    margin: 0; /* ביטול רווח חיצוני מכל הדף */
+    padding: 0; /* ביטול רווח פנימי מכל הדף */
+    direction: rtl; /* הגדרת כיוון הטקסט מימין לשמאל (לשפות כמו עברית) */
+    background-color: white; /* הגדרת צבע הרקע של הדף ללבן */
+    color: #333; /* הגדרת צבע הטקסט לצבע אפור כהה */
+    line-height: 1.6; /* קביעת גובה השורות כדי להקל על קריאת הטקסט */
+}
+
+header {
+    background: #333; /* צבע רקע כהה לאזור הכותרת */
+    color: white; /* צבע טקסט לבן */
+    padding: 15px 0; /* רווח פנימי למעלה ולמטה של ה-header */
+}
+
+header .container {
+    display: flex; /* שימוש ב-Flexbox כדי לארגן את האלמנטים בתוך ה-container */
+    justify-content: space-between; /* הפעלת מרווח בין פריטי ה-header */
+    align-items: center; /* מיקום פריטי ה-header במרכז האנכי */
+    max-width: 1200px; /* הגדרת רוחב מקסימלי של ה-container */
+    margin: 0 auto; /* מיקום מרכזי של ה-container בדף */
+    padding: 0 20px; /* רווח פנימי של 20px מצדדים */
+    display: flex; /* הגדרת Flexbox */
+    flex-direction: row-reverse; /* סידור האלמנטים בסדר הפוך (כיוון לימין) */
+}
+
+header h1 {
+    margin: 0; /* ביטול רווחים סביב כותרת ה-h1 */
+}
+
+header nav ul {
+    list-style: none; /* ביטול סימני רשימה */
+    padding: 0; /* ביטול רווח פנימי של הרשימה */
+    margin: 0; /* ביטול רווח חיצוני של הרשימה */
+    display: flex; /* שימוש ב-Flexbox כדי לסדר את פריטי הניווט */
+}
+
+header nav ul li {
+    margin-left: 20px; /* מרווח בין כל פריט בפריטי הניווט */
+}
+
+header nav ul li a {
+    color: white; /* הגדרת צבע הלינק לצבע לבן */
+    text-decoration: none; /* ביטול קו תחתון על הלינק */
+    font-weight: bold; /* הגדרת הלינק ב-bold */
+    transition: color 0.3s; /* אפקט מעבר על צבע הלינק עם זמן של 0.3 שניות */
+}
+
+header nav ul li a:hover {
+    color: #ffa500; /* שינוי צבע הלינק לכחול בעת החיווי עליו */
+}
+
+.hero {
+    text-align: center; /* יישור טקסט במרכז */
+    background: #ffa500; /* צבע רקע כתום לאזור ה-הירו */
+    color: white; /* צבע טקסט לבן */
+    padding: 50px 20px; /* רווח פנימי באזור ה-הירו */
+}
+
+.hero h2 {
+    font-size: 2.5em; /* גודל פונט גדול לכותרת בתוך אזור ההירו */
+    margin-bottom: 10px; /* מרווח קטן בתחתית הכותרת */
+}
+
+.car-list {
+    display: flex; /* שימוש ב-Flexbox כדי לסדר את פריטי הרכב */
+    flex-wrap: wrap; /* מאפשר לכלול מספר שורות אם יש צורך */
+    justify-content: center; /* יישור כל פריטי הרכב למרכז */
+    margin: 20px auto; /* מרווח חיצוני בין כל רשימת הרכבים */
+    max-width: 1200px; /* הגדרת רוחב מקסימלי של רשימת הרכבים */
+    gap: 20px; /* רווח בין כל פריט בתוך הרשימה */
+}
+
+.car-item {
+    background: white; /* צבע רקע לבן עבור כל פריט ברשימת הרכבים */
+    border: 1px solid #ddd; /* גבול אפור בהיר סביב כל פריט */
+    border-radius: 8px; /* פינות מעוגלות לפינה של כל פריט */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* צלליות עדינות עבור כל פריט */
+    width: 300px; /* הגדרת רוחב קבוע של כל פריט */
+    text-align: center; /* יישור טקסט במרכז בתוך כל פריט */
+    overflow: hidden; /* ביטול חפיפות של תוכן בתור פריט */
+}
+
+.car-item img {
+    width: 100%; /* הרחבת התמונה לרוחב מלא של כל פריט */
+    height: auto; /* שמירה על יחס הגובה-רוחב של התמונה */
+}
+
+.car-item h3 {
+    margin: 15px 0; /* מרווח סביב הכותרת */
+    font-size: 1.5em; /* גודל פונט בינוני לכותרת */
+}
+
+.car-item p {
+    padding: 0 15px 15px; /* רווח פנימי סביב טקסט התיאור */
+}
+
+footer {
+    background: #333; /* צבע רקע כהה לאזור הפוטר */
+    color: white; /* צבע טקסט לבן */
+    text-align: center; /* יישור טקסט במרכז */
+    padding: 10px 0; /* רווח פנימי של 10px למעלה ולמטה */
+    margin-top: 20px; /* מרווח חיצוני מעל אזור הפוטר */
+}

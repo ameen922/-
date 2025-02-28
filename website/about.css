@@ -1,0 +1,101 @@
+
+body {
+    font-family: Arial, sans-serif;  /* מגדיר את הגופן עבור כל הדף */
+    margin: 0;                      /* מסיר את השוליים ברירת המחדל */
+    padding: 0;                     /* מסיר את הריפוד ברירת המחדל */
+    background-color: #f4f4f4;      /* מגדיר צבע רקע אפור בהיר */
+}
+
+header {
+    background: #333;               /* צבע רקע כהה עבור הכותרת */
+    color: white;                   /* צבע טקסט לבן בכותרת */
+    padding: 20px 0;                /* ריפוד פנימי בתוך הכותרת */
+}
+
+header .container {
+    display: flex;                  /* מיישם פריסת Flexbox */
+    justify-content: space-between;  /* מפזר את פריטי הכותרת במרחק שווה */
+    align-items: center;            /* מיישר את הפריטים בצורה אנכית למרכז */
+    max-width: 1200px;              /* מגביל את רוחב הקונטיינר */
+    margin: 0 auto;                 /* ממרכז את הקונטיינר באופן אופקי */
+    padding: 0 20px;                /* מוסיף ריפוד פנימי בתוך הקונטיינר */
+    flex-direction: row-reverse;    /* הופך את סדר פריטי ה-flex */
+}
+
+/* סגנון עבור כותרת H1 */
+header h1 {
+    margin: 0;                      /* מסיר את השוליים ברירת המחדל */
+}
+
+/* סגנונות עבור רשימת ניווט */
+header nav ul {
+    list-style: none;               /* מסיר את הסימון של פריטי רשימה */
+    padding: 0;                     /* מסיר ריפוד ברירת המחדל */
+    margin: 0;                      /* מסיר שוליים ברירת המחדל */
+    display: flex;                  /* מציב את פריטי הניווט בשורה */
+}
+
+header nav ul li {
+    margin-left: 20px;              /* מוסיף רווח בין פריטי הניווט */
+}
+
+header nav ul li a {
+    color: white;                   /* צבע טקסט לבן לקישורים */
+    text-decoration: none;           /* מסיר את הקו התחתון מהקישורים */
+    font-weight: bold;               /* הופך את הטקסט בולד */
+    transition: color 0.3s;          /* מוסיף אפקט חלק בשינוי צבע */
+}
+
+/* אפקט ריחוף (Hover) על קישורים */
+header nav ul li a:hover {
+    color: #ffa500;                 /* משנה את צבע הקישור לאורנג' בזמן ריחוף */
+}
+
+h1, h2 {
+    font-size: 2rem;                 /* מגדיר גודל גופן גדול יותר עבור H1 ו-H2 */
+}
+
+h3 {
+    font-size: 1.5rem;               /* מגדיר גודל גופן קטן יותר עבור H3 */
+}
+
+section {
+    padding: 40px 20px;              /* ריפוד פנימי עבור הסעיף */
+    margin: 20px;                    /* שוליים מסביב לסעיף */
+    background-color: white;         /* צבע רקע לבן עבור הסעיף */
+    border-radius: 8px;              /* פינות מעוגלות לסעיף */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* צללים עדינים סביב הסעיף */
+}
+
+.car-list {
+    display: flex;                   /* מציב את רכבי הרשימה בשורה */
+    justify-content: space-around;    /* מפזר את רכבי הרשימה באופן שווה */
+    gap: 20px;                        /* מוסיף רווח בין פריטי הרכב */
+}
+
+.car {
+    text-align: center;              /* מרכז את הטקסט בתוך כל פריט רכב */
+    width: 30%;                       /* מגדיר רוחב של 30% עבור כל פריט רכב */
+}
+
+.car img {
+    max-width: 100%;                  /* מוודא שהתמונה לא תצא מגבולות האלמנט */
+    border-radius: 8px;               /* פינות מעוגלות לתמונה */
+}
+
+ul {
+    padding-left: 20px;               /* מוסיף ריפוד משמאל לרשימה */
+}
+
+/* סגנון עבור טפסים */
+form {
+    display: flex;                   /* פריסת Flexbox עבור הטופס */
+    flex-direction: column;          /* מציב את השדות בטור */
+    gap: 10px;                       /* מוסיף רווח בין שדות הטופס */
+    width: 300px;                    /* קובע רוחב קבוע עבור הטופס */
+    margin: 0 auto;                  /* ממקם את הטופס במרכז הדף */
+}
+
+.footer{
+    text-align: center;               /* מיישר את הטקסט במרכז עבור כותרת תחתונה */
+}
