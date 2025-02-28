@@ -1,0 +1,183 @@
+
+ /* הגדרת סגנון כללי עבור אלמנט car-item1 */
+.car-item1 {
+    border: 1px solid #ddd; /* גבול אפור בהיר מסביב לאלמנט */
+    box-shadow: 10px 12px rgba(0, 0, 0, 0.1); /* צללים עדינים מסביב לאלמנט */
+    overflow: hidden; /* הסתרת תכנים החורגים מגבולות האלמנט */
+    display: grid; /* סידור האלמנטים בעזרת גריד */
+    grid-template-columns: 30% 70%; /* הגדרת חלוקה לעמודה אחת של 30% ולשנייה של 70% */
+    justify-content: space-between; /* הפעלת מרווחים שווים בין העמודות */
+    align-items: center; /* יישור האלמנטים במרכז האנכי */
+    background-color: white; /* צבע רקע לבן */
+    border-radius: 10px; /* פינות מעוגלות בגבולות האלמנט */
+    width: 90%; /* רוחב האלמנט יהיה 90% מרוחב המסך */
+}
+
+/* הגדרת סגנון דומה לאלמנט car-item11 */
+.car-item11 {
+    border: 1px solid #ddd; /* גבול אפור בהיר */
+    box-shadow: 10px 12px rgba(0, 0, 0, 0.1); /* צללים עדינים */
+    overflow: hidden; /* הסתרת תכנים החורגים */
+    display: grid; /* שימוש בגריד */
+    grid-template-columns: 30% 70%; /* חלוקה לעמודה אחת של 30% ולשנייה של 70% */
+    justify-content: space-between; /* מרווחים שווים בין העמודות */
+    align-items: center; /* יישור האלמנטים במרכז האנכי */
+    background-color: white; /* צבע רקע לבן */
+    border-radius: 10px; /* פינות מעוגלות */
+    width: 90%; /* רוחב של 90% */
+}
+
+/* הגדרת סגנון כללי לאזור המכוניות */
+.car-section {
+    margin: 0; /* ביטול רווח חיצוני */
+    padding: 0; /* ביטול רווח פנימי */
+    box-sizing: border-box; /* הכללת הרווחים והגבולות בגודל הכללי */
+}
+
+.car-section {
+    display: grid; /* סידור האלמנטים בעזרת גריד */
+    grid-column: 50%; /* חלוקה ל-50% עמודה */
+    grid-area: auto; /* הגדרת אזור אוטומטי */
+    gap: 5%; /* מרווחים בין אלמנטים בתוך הגריד */
+    justify-content: center; /* יישור האלמנטים במרכז האופקי */
+    align-items: center; /* יישור האלמנטים במרכז האנכי */
+    flex-direction: column; /* סידור האלמנטים בעמודות */
+    background-color: #f0f0f0; /* צבע רקע אפור בהיר */
+}
+
+/* אפקט הגדלה בתמונה בעת חיווי על אלמנט עם המחלקה car-image */
+.car-image:hover {
+    transform: scale(1.05); /* הגדלת התמונה ב-5% */
+}
+
+/* הגדרת סגנון עבור כותרת המכונית */
+.car-title {
+    font-size: 24px; /* גודל פונט בגודל 24px */
+    font-weight: bold; /* הפיכת הכותרת לבולד */
+    margin-top: 15px; /* מרווח עליון */
+    color: #333; /* צבע טקסט כהה */
+}
+
+/* הגדרת סגנון לפסקה תחת כיתה car-description עבור כל הפסקאות p1 עד p5 */
+.car-description .p1.p2.p3.p4.p5 {
+    font-weight: bold; /* הפיכת הטקסט לבולד */
+    font-size: 13px; /* גודל פונט קטן */
+    color: #333; /* צבע טקסט כהה */
+    padding: 0 20%; /* רווח פנימי צדדי של 20% */
+}
+
+/* הגדרת סגנון לפסקה עם כיתה car-section p6 */
+.car-section .p6 {
+    font-weight: bold; /* הפיכת הטקסט לבולד */
+    font-size: 18px; /* גודל פונט בגודל 18px */
+    color: #333; /* צבע טקסט כהה */
+}
+
+/* סגנון footer */
+footer {
+    background: #333; /* צבע רקע כהה */
+    color: white; /* צבע טקסט לבן */
+    text-align: center; /* יישור הטקסט במרכז */
+    padding: 10px 0; /* רווח פנימי של 10px למעלה ולמטה */
+    margin-top: 20px; /* מרווח עליון של 20px */
+}
+
+/* הגדרת סגנון כללי לגוף הדף */
+body {
+    font-family: Arial, sans-serif; /* שימוש בגופן Arial */
+    margin: 0; /* ביטול רווח חיצוני */
+    padding: 0; /* ביטול רווח פנימי */
+    direction: rtl; /* יישור טקסט מימין לשמאל */
+    background-color: white; /* צבע רקע לבן */
+    color: #333; /* צבע טקסט כהה */
+    line-height: 1.6; /* גובה קו של 1.6 */
+}
+
+/* סגנון ל-header */
+header {
+    background: #333; /* צבע רקע כהה */
+    color: white; /* צבע טקסט לבן */
+    padding: 15px 0; /* רווח פנימי של 15px למעלה ולמטה */
+}
+
+/* הגדרת קונטיינר ל-header */
+header .container {
+    display: flex; /* סידור האלמנטים בעזרת Flexbox */
+    justify-content: space-between; /* רווחים שווים בין האלמנטים */
+    align-items: center; /* יישור במרכז האנכי */
+    max-width: 1200px; /* הגבלת רוחב הקונטיינר */
+    margin: 0 auto; /* רווח אוטומטי בצדדים */
+    padding: 0 20px; /* רווח פנימי בצדדים */
+    display: flex; /* סידור האלמנטים ב-flex */
+    flex-direction: row-reverse; /* סידור האלמנטים מימין לשמאל */
+}
+
+/* סגנון עבור כותרת בתוך header */
+header h1 {
+    margin: 0; /* ביטול מרווחים */
+}
+
+/* סגנון עבור תפריט הניווט ב-header */
+header nav ul {
+    list-style: none; /* ביטול סימני הרשימה */
+    padding: 0; /* ביטול רווח פנימי */
+    margin: 0; /* ביטול רווח חיצוני */
+    display: flex; /* סידור האלמנטים בעזרת Flexbox */
+}
+
+header nav ul li {
+    margin-left: 20px; /* מרווח בין פריטי הניווט */
+}
+
+header nav ul li a {
+    color: white; /* צבע טקסט לבן */
+    text-decoration: none; /* ביטול קו תחתון */
+    font-weight: bold; /* הפיכת הטקסט לבולד */
+    transition: color 0.3s; /* אפקט מעבר על הצבע */
+}
+
+/* אפקט hover על הקישורים בתפריט */
+header nav ul li a:hover {
+    color: #ffa500; /* שינוי צבע בעת חיווי לכחול */
+}
+
+/* סגנון עבור hero */
+.hero {
+    text-align: center; /* יישור טקסט במרכז */
+    background: #ffa500; /* צבע רקע כתום */
+    color: white; /* צבע טקסט לבן */
+    padding: 50px 20px; /* רווח פנימי של 50px למעלה ולמטה ו-20px מצדדים */
+}
+
+.hero h2 {
+    font-size: 2.5em; /* גודל פונט גדול */
+    margin-bottom: 10px; /* מרווח תחתון */
+}
+
+/* סגנון עבור car-list */
+.car-list {
+    display: flex; /* שימוש ב-Flexbox */
+    flex-wrap: wrap; /* איפוס אוטומטי של שורות */
+    justify-content: center; /* יישור האלמנטים במרכז */
+    margin: 20px auto; /* רווח אוטומטי בצדדים */
+    max-width: 1200px; /* הגבלת רוחב של 1200px */
+    gap: 20px; /* מרווחים בין פריטי המכוניות */
+}
+
+/* הגדרת סגנון לתמונות במכונית */
+.car-item1 img, .car-item11 img {
+    width: 100%; /* תמונה תתפוס את רוחב האלמנט */
+    height: auto; /* גובה התמונה יתואם באופן אוטומטי */
+}
+
+/* סגנון עבור כותרת המכונית */
+.car-item1 h3, .car-item11 h3 {
+    margin: 15px 0; /* מרווחים בין כותרת למטה ולמעלה */
+    font-size: 1.5em; /* גודל פונט בינוני */
+}
+
+/* סגנון עבור תיאור המכונית */
+.car-item1 p, .car-item11 p {
+    padding: 0 15px 15px; /* רווח פנימי */
+}
+

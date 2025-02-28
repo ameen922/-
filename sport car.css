@@ -1,0 +1,348 @@
+/* 
+.car-item1{
+    border: 1px solid #ddd;
+    box-shadow: 10px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;   
+    display:grid; 
+    grid-template-columns: 30% 70%;
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: white;
+    border-radius: 10px;
+    background: white;
+    width: 90%;
+
+}
+.car-item11{
+    border: 1px solid #ddd;
+    box-shadow: 10px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;   
+    display:grid; 
+    grid-template-columns: 30% 70%;
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: white;
+    border-radius: 10px;
+    background: white;
+    width: 90%;
+
+    
+}
+
+*.car-section {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.car-section {
+    display: grid;
+    grid-column: 50%;
+    grid-area: auto;
+    gap: 5%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f0f0f0; 
+    
+}
+
+
+.car-image:hover {
+    transform: scale(1.05); 
+    
+}
+
+
+.car-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #333;
+}
+
+
+.car-description .p1.p2.p3.p4.p5 {
+    font-weight: bold;
+    font-size: 13px;
+    color: #333;
+    padding: 0 20%;
+
+}
+.car-section p6{
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+}
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    background-color: white;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+header {
+    background: #333;
+    color: white;
+    padding: 15px 0;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+header h1 {
+    margin: 0;
+}
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+header nav ul li {
+    margin-left: 20px;
+}
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+header nav ul li a:hover {
+    color: #ffa500;
+}
+
+
+.hero {
+    text-align: center;
+    background: #ffa500;
+    color: white;
+    padding: 50px 20px;
+}
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+
+.car-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 1200px;
+    gap: 20px;
+}
+
+.car-item1 img {
+     width: 100%; 
+     height: auto;
+     
+}
+.car-item11 img {
+    width: 100%; 
+    height: auto;
+}
+.car-item1 h3 {
+    margin: 15px 0;
+    font-size: 1.5em;
+}
+.car-item11 h3 {
+    margin: 15px 0;
+    font-size: 1.5em;
+}
+.car-item1 p {
+    padding: 0 15px 15px;
+}
+.car-item11 p {
+    padding: 0 15px 15px;
+}
+ */
+/* הכלל הבא מבצע אפס הגדרות למרווחים, padding ו-border לכל האלמנטים בדף */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* סגנון כללי לדף */
+body {
+    font-family: Arial, sans-serif; /* גופן דף */
+    margin: 0; /* אפס מרווחים חיצוניים */
+    padding: 0; /* אפס ריפודים פנימיים */
+    direction: rtl; /* הגדרה לימין לשמאל */
+    background-color: white; /* רקע לבן לדף */
+    color: #333; /* צבע טקסט כהה */
+    line-height: 1.6; /* גובה שורה */
+}
+
+/* עיצוב לכותרת הראשית (header) */
+header {
+    background: #333; /* צבע רקע כהה */
+    color: white; /* צבע טקסט לבן */
+    padding: 15px 0; /* ריפוד של 15px בחלק העליון והתחתון */
+}
+
+/* מיכל בתוכו נשמר התפריט ואלמנטים בתוך ה-header */
+header .container {
+    display: flex; /* שימוש ב-Flexbox להכוונת האלמנטים */
+    justify-content: space-between; /* מרווח שווה בין אלמנטים */
+    align-items: center; /* אלמנטים מיושרים אנכית במרכז */
+    max-width: 1200px; /* רוחב מקסימלי */
+    margin: 0 auto; /* מיקוד במרכז הדף */
+    padding: 0 20px; /* ריפוד פנימי */
+    flex-direction: row-reverse; /* סידור התפריט מימין לשמאל */
+}
+
+/* עיצוב כותרת h1 בתוך header */
+header h1 {
+    margin: 0; /* אין מרווחים */
+}
+
+/* סגנון לתפריט בניווט */
+header nav ul {
+    list-style: none; /* ללא בולטים */
+    padding: 0;
+    margin: 0;
+    display: flex; /* משתמש ב-Flexbox */
+    flex-direction: row-reverse; /* סידור מימין לשמאל */
+}
+
+/* סגנון כל פריט בתפריט */
+header nav ul li {
+    margin-left: 20px; /* מרווח בין פריטים */
+}
+
+/* סגנון עבור הקישורים בתפריט */
+header nav ul li a {
+    color: white; /* צבע לבן לקישורים */
+    text-decoration: none; /* הסרת קו תחתון */
+    font-weight: bold; /* משקל טקסט בולד */
+    transition: color 0.3s; /* אפקט שינוי צבע עם הזמן */
+}
+
+/* שינוי צבע כשעוברים עם העכבר על הקישור */
+header nav ul li a:hover {
+    color: #ffa500; /* צבע כתום */
+}
+
+/* סגנון לאזור הגיבור (hero section) */
+.hero {
+    text-align: center; /* טקסט מיושר למרכז */
+    background: #ffa500; /* צבע רקע כתום */
+    color: white; /* צבע טקסט לבן */
+    padding: 50px 20px; /* ריפוד פנימי */
+}
+
+/* סגנון לכותרת h2 באזור הגיבור */
+.hero h2 {
+    font-size: 2.5em; /* גודל פונט גדול */
+    margin-bottom: 10px; /* מרווח תחתון */
+}
+
+/* סגנון לרשימת רכבים */
+.car-list {
+    display: flex; /* שימוש ב-Flexbox */
+    flex-wrap: wrap; /* רפוי של רכיבים לשורות */
+    justify-content: center; /* מיקוד המרכז */
+    margin: 20px auto; /* רווחים סביב הרכיבים */
+    max-width: 1200px; /* רוחב מקסימלי */
+    gap: 20px; /* רווח בין רכיבים */
+}
+
+/* עיצוב עבור רכיבי רכב */
+.car-item1, .car-item11 {
+    border: 1px solid #ddd; /* גבול אפור דק */
+    box-shadow: 10px 12px rgba(0, 0, 0, 0.1); /* צללית עדינה */
+    overflow: hidden; /* הסתרת תוכן החורג מהקופסה */
+    display: grid; /* משתמש בגריד */
+    grid-template-columns: 30% 70%; /* הגדרת יחסי גודל בין התאים */
+    justify-content: space-between; /* מרווח שווה בין תאי הגריד */
+    align-items: center; /* יישור אנכי במרכז */
+    background-color: white; /* רקע לבן */
+    border-radius: 10px; /* פינות מעוגלות */
+    width: 90%; /* רוחב של 90% */
+}
+
+/* סגנון לתמונה ברכב */
+.car-item1 img, .car-item11 img {
+    width: 100%; /* התמונה תתפוס את כל הרוחב */
+    height: auto; /* שמירה על פרופורציות */
+}
+
+/* סגנון לכותרת של רכיבי הרכב */
+.car-item1 h3, .car-item11 h3 {
+    margin: 15px 0; /* רווחים עליונים ותחתונים */
+    font-size: 1.5em; /* גודל פונט גדול */
+}
+
+/* סגנון לפסקאות בתוך רכיבי הרכב */
+.car-item1 p, .car-item11 p {
+    padding: 0 15px 15px; /* ריפוד פנימי */
+}
+
+/* סגנון לאזור של הרכבים */
+.car-section {
+    display: grid; /* משתמש בגריד */
+    grid-column: 50%; /* הצגת תוכן על חצי מהמסך */
+    gap: 5%; /* רווח בין תאים */
+    justify-content: center; /* יישור מרכזי */
+    align-items: center; /* יישור אנכי */
+    flex-direction: column; /* סידור כעמודות */
+    background-color: #f0f0f0; /* צבע רקע אפור בהיר */
+}
+
+/* סגנון לתמונות רכבים בעת חיווי */
+.car-image:hover {
+    transform: scale(1.05); /* הגדלת התמונה ב-5% */
+}
+
+/* סגנון לכותרת הרכב */
+.car-title {
+    font-size: 24px; /* גודל פונט בינוני */
+    font-weight: bold; /* משקל בולד */
+    margin-top: 15px; /* רווח עליון */
+    color: #333; /* צבע טקסט כהה */
+}
+
+/* סגנון לפסקאות בתיאור הרכב */
+.car-description .p1.p2.p3.p4.p5 {
+    font-weight: bold; /* בולד */
+    font-size: 13px; /* גודל פונט קטן */
+    color: #333; /* צבע טקסט כהה */
+    padding: 0 20%; /* ריפוד פנימי מימין ומשמאל */
+}
+
+/* סגנון לפסקה עם כיתה p6 */
+.car-section p6 {
+    font-weight: bold; /* בולד */
+    font-size: 18px; /* גודל פונט בינוני */
+    color: #333; /* צבע טקסט כהה */
+}
+
+/* סגנון עבור footer */
+footer {
+    background: #333; /* רקע כהה */
+    color: white; /* צבע טקסט לבן */
+    text-align: center; /* יישור טקסט למרכז */
+    padding: 10px 0; /* ריפוד פנימי */
+    margin-top: 20px; /* רווח עליון */
+}

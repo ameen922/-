@@ -1,0 +1,381 @@
+/* .car-item1{
+    border: 1px solid #ddd;
+    box-shadow: 10px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;   
+    display:grid; 
+    grid-template-columns: 30% 70%;
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: white;
+    border-radius: 10px;
+    background: white;
+    width:90%;;
+
+}
+.car-item11{
+    border: 1px solid #ddd;
+    box-shadow: 10px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;   
+    display:grid; 
+    grid-template-columns: 30% 70%;
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: white;
+    border-radius: 10px;
+    background: white;
+    width: 90%;
+
+    
+}
+
+*.car-section {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.car-section {
+    display: grid;
+    grid-column: 50%;
+    grid-area: auto;
+    gap: 5%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f0f0f0; 
+    padding-bottom: 60px;
+}
+
+
+.car-image:hover {
+    transform: scale(1.05); 
+    
+}
+
+
+.car-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #333;
+}
+
+
+.car-description .p1.p2.p3.p4.p5 {
+    font-weight: bold;
+    font-size: 13px;
+    color: #333;
+    padding: 0 20%;
+
+}
+.car-section p6{
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+}
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    background-color: white;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+header {
+    background: #333;
+    color: white;
+    padding: 15px 0;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+header h1 {
+    margin: 0;
+}
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+header nav ul li {
+    margin-left: 20px;
+}
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+header nav ul li a:hover {
+    color: #ffa500;
+}
+
+
+.hero {
+    text-align: center;
+    background: #ffa500;
+    color: white;
+    padding: 50px 20px;
+}
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+
+.car-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 1200px;
+    gap: 20px;
+}
+
+.car-item1 img {
+     width: 115%; 
+     height: auto;
+     
+}
+.car-item11 img {
+    width: 90%; 
+    height: auto;
+}
+.car-item1 h3 {
+    margin: 15px 0;
+    font-size: 1.5em;
+}
+.car-item11 h3 {
+    margin: 15px 0;
+    font-size: 1.5em;
+}
+.car-item1 p {
+    padding: 0 15px 15px;
+    
+    
+}
+.car-item11 p {
+    padding: 0 15px 15px;
+} */
+
+
+
+/* סגנונות עבור פריט הרכב הראשון */
+.car-item1 {
+    border: 1px solid #ddd;                   /* גבול אפור סביב הפריט */
+    box-shadow: 10px 12px rgba(0, 0, 0, 0.1); /* הצללה עדינה סביב הפריט */
+    overflow: hidden;                          /* מסתיר תוכן החורג מהאלמנט */
+    display: grid;                             /* מציב את התוכן בפריסת גריד */
+    grid-template-columns: 30% 70%;            /* מגדיר שני טורים - 30% ו-70% */
+    justify-content: space-between;            /* מרווח שווה בין התוכן */
+    align-items: center;                      /* מיישר את התוכן באופן אנכי */
+    background-color: white;                  /* צבע רקע לבן */
+    border-radius: 10px;                      /* פינות מעוגלות בגבולות */
+    background: white;                        /* צבע רקע לבן */
+    width: 90%;                               /* רוחב 90% עבור הפריט */
+}
+
+/* סגנונות עבור פריט הרכב השני (כמעט זהה לראשון) */
+.car-item11 {
+    border: 1px solid #ddd;                   /* גבול אפור סביב הפריט */
+    box-shadow: 10px 12px rgba(0, 0, 0, 0.1); /* הצללה עדינה סביב הפריט */
+    overflow: hidden;                          /* מסתיר תוכן החורג מהאלמנט */
+    display: grid;                             /* מציב את התוכן בפריסת גריד */
+    grid-template-columns: 30% 70%;            /* מגדיר שני טורים - 30% ו-70% */
+    justify-content: space-between;            /* מרווח שווה בין התוכן */
+    align-items: center;                      /* מיישר את התוכן באופן אנכי */
+    background-color: white;                  /* צבע רקע לבן */
+    border-radius: 10px;                      /* פינות מעוגלות בגבולות */
+    background: white;                        /* צבע רקע לבן */
+    width: 90%;                               /* רוחב 90% עבור הפריט */
+}
+
+/* סגנונות כלליים עבור כל מחלקת car-section */
+.car-section {
+    margin: 0;                                /* מסיר את השוליים */
+    padding: 0;                               /* מסיר את הריפוד */
+    box-sizing: border-box;                   /* כולל את הגבולות והמרווחים בתוך הגודל הכולל */
+}
+
+/* סגנון עבור מחלקת car-section */
+.car-section {
+    display: grid;                            /* מציב את התוכן בפריסת גריד */
+    grid-column: 50%;                         /* הגדרת הגריד עבור טור אחד */
+    grid-area: auto;                          /* הגדרת אזור גריד אוטומטי */
+    gap: 5%;                                  /* מרווחים בין התאים בגריד */
+    justify-content: center;                  /* מיישר את התוכן למרכז */
+    align-items: center;                      /* מיישר את התוכן אנכית למרכז */
+    flex-direction: column;                   /* סדר גרידי בכיוון אנכי */
+    background-color: #f0f0f0;                /* צבע רקע בהיר */
+    padding-bottom: 60px;                     /* ריפוד למטה של 60px */
+}
+
+/* סגנון לאפקט ריחוף עבור תמונות רכבים */
+.car-image:hover {
+    transform: scale(1.05);                   /* הגדלת התמונה ב-5% בזמן ריחוף */
+}
+
+/* סגנונות עבור כותרת car-title */
+.car-title {
+    font-size: 24px;                          /* גודל גופן 24px */
+    font-weight: bold;                        /* גופן מודגש */
+    margin-top: 15px;                         /* רווח של 15px למעלה */
+    color: #333;                              /* צבע טקסט כהה */
+}
+
+/* סגנון לפסקאות עם מחלקת car-description */
+.car-description .p1.p2.p3.p4.p5 {
+    font-weight: bold;                        /* גופן מודגש */
+    font-size: 13px;                          /* גודל גופן 13px */
+    color: #333;                              /* צבע טקסט כהה */
+    padding: 0 20%;                           /* ריפוד של 20% משני הצדדים */
+}
+
+/* סגנון לפסקה עם מחלקת p6 */
+.car-section p6 {
+    font-weight: bold;                        /* גופן מודגש */
+    font-size: 18px;                          /* גודל גופן 18px */
+    color: #333;                              /* צבע טקסט כהה */
+}
+
+/* סגנונות עבור כותרת footer */
+footer {
+    background: #333;                        /* צבע רקע כהה לכותרת תחתונה */
+    color: white;                             /* צבע טקסט לבן */
+    text-align: center;                       /* מיישר את הטקסט במרכז */
+    padding: 10px 0;                          /* ריפוד של 10px למעלה ולמטה */
+    margin-top: 20px;                         /* רווח של 20px מעל footer */
+}
+
+/* סגנונות כלליים עבור הגוף של הדף */
+body {
+    font-family: Arial, sans-serif;           /* גופן של Arial */
+    margin: 0;                                /* מסיר את השוליים */
+    padding: 0;                               /* מסיר את הריפוד */
+    direction: rtl;                           /* כיוון כתיבה מימין לשמאל */
+    background-color: white;                 /* צבע רקע לבן */
+    color: #333;                              /* צבע טקסט כהה */
+    line-height: 1.6;                         /* גובה שורה של 1.6 */
+}
+
+/* סגנונות עבור כותרת ראשית (header) */
+header {
+    background: #333;                        /* צבע רקע כהה לכותרת */
+    color: white;                             /* צבע טקסט לבן */
+    padding: 15px 0;                          /* ריפוד של 15px למעלה ולמטה */
+}
+
+/* סגנון עבור קונטיינר בכותרת */
+header .container {
+    display: flex;                            /* מציב את התוכן בפריסת Flex */
+    justify-content: space-between;           /* מפזר את התוכן בין שני הקצוות */
+    align-items: center;                      /* מיישר את התוכן אנכית */
+    max-width: 1200px;                        /* מגביל את רוחב הקונטיינר */
+    margin: 0 auto;                           /* מרכז את הקונטיינר */
+    padding: 0 20px;                          /* ריפוד פנימי של 20px */
+    flex-direction: row-reverse;              /* סידור פריטים בכיוון הפוך (לימין לשמאל) */
+}
+
+/* סגנון עבור כותרת H1 בכותרת */
+header h1 {
+    margin: 0;                                /* מסיר את השוליים */
+}
+
+/* סגנון עבור רשימת ניווט בכותרת */
+header nav ul {
+    list-style: none;                         /* מסיר את הסימון של פריטי הרשימה */
+    padding: 0;                               /* מסיר את הריפוד */
+    margin: 0;                                /* מסיר את השוליים */
+    display: flex;                            /* מציב את פריטי הניווט בשורה */
+}
+
+/* סגנון עבור פריטי הרשימה ב-ניווט */
+header nav ul li {
+    margin-left: 20px;                        /* מוסיף רווח בין פריטי הניווט */
+}
+
+/* סגנון עבור קישורי הניווט */
+header nav ul li a {
+    color: white;                             /* צבע טקסט לבן */
+    text-decoration: none;                    /* מסיר את הקו התחתון */
+    font-weight: bold;                        /* הופך את הטקסט ב-bold */
+    transition: color 0.3s;                   /* מוסיף אפקט חלק בשינוי צבע */
+}
+
+/* אפקט ריחוף (Hover) על קישורים */
+header nav ul li a:hover {
+    color: #ffa500;                           /* שינוי צבע הקישור לאורנג' בזמן ריחוף */
+}
+
+/* סגנון עבור אזור hero */
+.hero {
+    text-align: center;                       /* מיישר את הטקסט במרכז */
+    background: #ffa500;                      /* צבע רקע אורנג' */
+    color: white;                             /* צבע טקסט לבן */
+    padding: 50px 20px;                       /* ריפוד פנימי של 50px למעלה ולמטה, 20px משמאל ומימין */
+}
+
+/* סגנון עבור כותרת H2 באזור hero */
+.hero h2 {
+    font-size: 2.5em;                         /* גודל גופן 2.5em */
+    margin-bottom: 10px;                      /* רווח של 10px מתחת לכותרת */
+}
+
+/* סגנון עבור רשימת רכבים */
+.car-list {
+    display: flex;                            /* מציב את רכבי המכירה בשורה */
+    flex-wrap: wrap;                          /* מאפשר שבירת שורה אוטומטית */
+    justify-content: center;                  /* מיישר את הרכבים למרכז */
+    margin: 20px auto;                        /* רווח של 20px למעלה ולמטה, וממרכז את הרשימה */
+    max-width: 1200px;                        /* מגביל את רוחב הרשימה */
+    gap: 20px;                                /* רווח של 20px בין פריטי הרכב */
+}
+
+/* סגנון לתמונות בתוך פריטי הרכב */
+.car-item1 img {
+    width: 115%;                              /* מגדיל את התמונה ב-15% */
+    height: auto;                             /* גובה התמונה יתואם באופן אוטומטי */
+}
+
+/* סגנון לתמונות בתוך פריטי הרכב */
+.car-item11 img {
+    width: 90%;                               /* מצמצם את רוחב התמונה ל-90% */
+    height: auto;                             /* גובה התמונה יתואם באופן אוטומטי */
+}
+
+/* סגנון עבור כותרת של פריט רכב */
+.car-item1 h3 {
+    margin: 15px 0;                           /* רווח של 15px למעלה ולמטה */
+    font-size: 1.5em;                         /* גודל גופן 1.5em */
+}
+
+/* סגנון עבור כותרת של פריט רכב */
+.car-item11 h3 {
+    margin: 15px 0;                           /* רווח של 15px למעלה ולמטה */
+    font-size: 1.5em;                         /* גודל גופן 1.5em */
+}
+
+/* סגנון לפסקאות בתוך פריטי הרכב */
+.car-item1 p {
+    padding: 0 15px 15px;                     /* ריפוד של 15px משמאל ומימין, 15px למטה */
+}
+

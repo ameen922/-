@@ -1,0 +1,197 @@
+/* סגנונות כלליים לגוף הדף */
+body {
+    font-family: 'Arial', sans-serif;  /* מגדיר את הגופן עבור כל הדף */
+    background-color: #f4f4f9;        /* מגדיר צבע רקע בהיר מאוד */
+    margin: 0;                         /* מסיר את השוליים ברירת המחדל */
+    padding: 0;                        /* מסיר את הריפוד ברירת המחדל */
+    direction: rtl;                    /* מגדיר כיוון כתיבה מימין לשמאל */
+    text-align: right;                 /* מיישר את הטקסט לימין */
+}
+
+/* סגנונות עבור טופס יצירת קשר */
+.contact {
+    width: 80%;                        /* מגדיר את רוחב הטופס ל-80% מהדף */
+    max-width: 600px;                  /* מגביל את רוחב הטופס ל-600px */
+    margin: 50px auto;                 /* מרווח של 50px למעלה ולמטה, וממרכז את הטופס */
+    padding: 20px;                     /* ריפוד פנימי של 20px */
+    background-color: #fff;            /* צבע רקע לבן לטופס */
+    border-radius: 8px;                /* פינות מעוגלות לטופס */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* צללים עדינים סביב הטופס */
+}
+
+/* סגנון עבור כותרת H2 */
+h2 {
+    color: #333;                       /* צבע טקסט כהה לכותרת */
+    font-size: 24px;                    /* גודל גופן 24px */
+    margin-bottom: 20px;                /* מרווח של 20px מתחת לכותרת */
+}
+
+/* סגנון לפסקאות */
+p {
+    color: #666;                       /* צבע טקסט אפור בהיר */
+    font-size: 16px;                    /* גודל גופן 16px */
+    margin-bottom: 20px;                /* מרווח של 20px מתחת לפסקה */
+}
+
+/* סגנון לתוויות (לייבלים) */
+label {
+    font-size: 14px;                    /* גודל גופן 14px */
+    color: #333;                        /* צבע טקסט כהה */
+    margin-bottom: 8px;                 /* מרווח של 8px מתחת לתווית */
+    display: block;                     /* מציב את התווית כלשורה חדשה */
+}
+
+/* סגנון עבור שדות קלט ו-TEXTAREA */
+input, textarea {
+    width: 100%;                        /* רוחב מלא לשדות הקלט */
+    padding: 10px;                      /* ריפוד פנימי של 10px */
+    margin: 8px 0 20px 0;               /* מרווחים סביב השדות */
+    border: 1px solid #ccc;             /* גבול עדין מסביב לשדות */
+    border-radius: 4px;                 /* פינות מעוגלות לשדות */
+    font-size: 16px;                    /* גודל גופן 16px */
+}
+
+/* סגנון לכפתור */
+button {
+    background-color: #4CAF50;          /* צבע רקע ירוק לכפתור */
+    color: white;                       /* צבע טקסט לבן */
+    padding: 12px 20px;                 /* ריפוד פנימי של 12px למעלה ולמטה, 20px משמאל ומימין */
+    border: none;                       /* מסיר את הגבול סביב הכפתור */
+    border-radius: 4px;                 /* פינות מעוגלות לכפתור */
+    font-size: 16px;                    /* גודל גופן 16px */
+    cursor: pointer;                   /* משנה את הסמן לאצבע כאשר מרחפים מעל הכפתור */
+}
+
+/* סגנון לכפתור בזמן ריחוף */
+button:hover {
+    background-color: #45a049;          /* שינוי צבע הרקע לאור ירוק כהה יותר בזמן ריחוף */
+}
+
+/* סגנון למובייל - עד רוחב מסך של 600px */
+@media screen and (max-width: 600px) {
+    .contact {
+        width: 90%;                     /* רוחב של 90% בטופס במובייל */
+        padding: 15px;                   /* ריפוד פנימי של 15px */
+    }
+}
+
+/* סגנונות עבור כותרת עליונה (header) */
+header {
+    background: #333;                  /* צבע רקע כהה עבור הכותרת העליונה */
+    color: white;                       /* צבע טקסט לבן */
+    padding: 20px 0;                    /* ריפוד פנימי של 20px למעלה ולמטה */
+}
+
+/* קונטיינר עבור תכני הכותרת */
+header .container {
+    display: flex;                      /* מיישם פריסת Flexbox */
+    justify-content: space-between;      /* מפזר את פריטי הכותרת במרחק שווה */
+    align-items: center;                /* מיישר את הפריטים בצורה אנכית למרכז */
+    max-width: 1200px;                   /* מגביל את רוחב הקונטיינר */
+    margin: 0 20px;                     /* שוליים של 20px משני הצדדים */
+    padding: 0 20px;                    /* ריפוד פנימי של 20px */
+    flex-direction: row-reverse;         /* הופך את סדר פריטי ה-flex */
+}
+
+/* סגנון עבור כותרת H1 בתוך הכותרת */
+header h1 {
+    margin: 0;                          /* מסיר את השוליים ברירת המחדל */
+}
+
+/* סגנונות עבור ניווט */
+header nav ul {
+    list-style: none;                   /* מסיר את הסימון של פריטי רשימה */
+    padding: 0;                         /* מסיר ריפוד ברירת המחדל */
+    margin: 0;                          /* מסיר את השוליים ברירת המחדל */
+    display: flex;                      /* מציב את פריטי הניווט בשורה */
+}
+
+/* סגנון עבור פריטי הרשימה ב-ניווט */
+header nav ul li {
+    margin-left: 20px;                  /* מוסיף רווח בין פריטי הניווט */
+}
+
+/* סגנון עבור קישורי הניווט */
+header nav ul li a {
+    color: white;                       /* צבע טקסט לבן לקישורים */
+    text-decoration: none;               /* מסיר את הקו התחתון מהקישורים */
+    font-weight: bold;                   /* הופך את הטקסט ב-bold */
+    transition: color 0.3s;              /* מוסיף אפקט חלק בשינוי צבע */
+}
+
+/* אפקט ריחוף (Hover) על קישורים */
+header nav ul li a:hover {
+    color: #ffa500;                     /* שינוי צבע הקישור לאורנג' בזמן ריחוף */
+}
+
+/* סגנון לאייקונים של רשתות חברתיות */
+.instagram-icon, .twitter-icon, .whatsapp-icon {
+    margin-top: 20px;                   /* רווח למעלה לכל אייקון */
+    text-align: center;                 /* מיישר את האייקונים במרכז */
+}
+
+/* סגנון לקישור בתוך אייקון */
+.facebook-icon a, .instagram-icon a, .twitter-icon a, .whatsapp-icon a {
+    font-size: 20px;                    /* גודל גופן 20px */
+    color: #3b5998;                     /* צבע טקסט של כל אייקון - כחול */
+    text-decoration: none;              /* מסיר את הקו התחתון */
+    font-weight: bold;                  /* הופך את הטקסט ב-bold */
+}
+
+/* אפקט ריחוף (Hover) על קישורים של רשתות חברתיות */
+.facebook-icon a:hover, .instagram-icon a:hover, .twitter-icon a:hover, .whatsapp-icon a:hover {
+    color: #2d4373;                     /* שינוי צבע הקישור בזמן ריחוף */
+}
+
+/* סגנון עבור תמונות האייקונים */
+.facebook-icon img{
+    width: 45px;                        /* גודל תמונה של 45px */
+}
+.facebook-icon{
+    margin-top: 15px;              /* רווח למעלה לכל אייקון */
+    text-align: center;                 /* מיישר את האייקונים במרכז */
+}
+
+.instagram-icon img{
+    width: 35px;
+}
+.twitter-icon img{
+    width: 30px;
+}
+.whatsapp-icon img{
+    width: 30px;
+}
+
+/* סגנון עבור כותרת תחתונה (footer) */
+.footer {
+    text-align: center;                 /* מיישר את הטקסט במרכז */
+    padding: 20px;                      /* ריפוד פנימי של 20px */
+}
+
+/* סגנון עבור אייקוני רשתות חברתיות */
+ul.social-icons {
+    list-style-type: none;              /* מסיר את הסימון של פריטי רשימה */
+    display: flex;                      /* מציב את האייקונים בשורה */
+    justify-content: center;            /* מיישר את האייקונים למרכז */
+    gap: 20px;                          /* מוסיף רווח בין האייקונים */
+    padding: 0;
+}
+
+/* סגנון עבור פריטי הרשימה של אייקוני רשתות חברתיות */
+ul.social-icons li {
+    display: inline-block;
+}
+
+/* סגנון עבור הקישורים של האייקונים */
+ul.social-icons li a {
+    display: block;                     /* מציב כל קישור כבלוק */
+    width: 40px;                        /* רוחב של 40px לכל אייקון */
+    height: 40px;                       /* גובה של 40px לכל אייקון */
+}
+
+/* סגנון עבור התמונות בתוך האייקונים */
+ul.social-icons li img {
+    width: 100%;                        /* גודל תמונה מלא בתוך האייקון */
+    height: 100%;                       /* גובה מלא בתוך האייקון */
+    object-fit: contain;                /* מוודא שהתמונה מתאימה בגבולות האייקון */
+}
